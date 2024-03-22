@@ -1,0 +1,62 @@
+/* Estilizando a primeira letra de todos os parágrafos */
+p::first-letter {
+    font-style: oblique;
+}
+
+/* Estilizando as labels */
+label {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px; /* Adicionando margem inferior para separar os labels */
+    display: block; /* Garantindo que cada label ocupe uma linha */
+}
+
+/* Estilizando os inputs */
+input {
+    margin-bottom: 20px;
+    width: 290px; /* Fazendo os inputs ocuparem toda a largura disponível */
+    padding: 8px; /* Adicionando preenchimento interno para os inputs */
+    border: 1px solid #ccc; /* Adicionando uma borda para os inputs */
+    border-radius: 5px; /* Adicionando bordas arredondadas */
+    box-sizing: border-box; /* Mantendo a largura total do input incluindo padding e borda */
+}
+
+/* Estilizando os inputs válidos */
+input:valid {
+    background-color: rgba(55, 255, 0, 0.256); /* Alterando a cor de fundo para inputs válidos */
+}
+
+/* Estilizando o botão */
+button {
+    padding: 10px 20px; /* Adicionando preenchimento interno ao botão */
+    border: none; /* Removendo a borda do botão */
+    border-radius: 5px; /* Adicionando bordas arredondadas ao botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Alterando o cursor ao passar sobre o botão */
+}
+
+/* Estilizando o botão ao passar o mouse sobre ele */
+button:hover {
+    background-color: #00b318b0; /* Alterando a cor de fundo ao passar o mouse sobre o botão */
+}
+
+
+/* Estilizando o resultado */
+.kmkm {
+    font-size: 24px; /* Tamanho da fonte */
+    margin-top: 20px; /* Margem superior */
+    color: #007bff;
+}
+
+/* Estilizando o resultado quando for positivo */
+.kmkm.positive {
+    color: green; /* Cor verde para resultado positivo */
+}
+
+/* Estilizando o resultado quando for negativo */
+.kmkm.negative {
+    color: red; /* Cor vermelha para resultado negativo */
+}
+
